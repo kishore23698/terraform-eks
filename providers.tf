@@ -4,7 +4,7 @@ terraform {
     key                     = "terraform.tfstate"
     region                  = "ap-south-1"
     shared_credentials_files = ["$HOME/.aws/credentials"]
-    profile                  = "customprofile"
+    profile                  = "default"
     }
 
   required_providers {
