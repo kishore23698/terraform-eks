@@ -3,8 +3,8 @@ terraform {
     bucket                  = "eks-cluster-state-store"
     key                     = "terraform.tfstate"
     region                  = "ap-south-1"
-    shared_credentials_files = ["$HOME/.aws/credentials"]
-    profile                  = "default"
+    #shared_credentials_files = ["$HOME/.aws/credentials"]
+    #profile                  = "default"
     }
 
   required_providers {
